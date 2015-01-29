@@ -76,7 +76,7 @@ public class HelloFBTest extends ActivityUnitTestCase<MainActivity> {
 	public void testSearch() {
 		Bundle param = new Bundle();
 		param.putString("q", "Los Angeles");
-		new Request(testSession, "search", null, HttpMethod.GET,
+		new Request(testSession, "search", param, HttpMethod.GET,
 				new Request.Callback() {
 					public void onCompleted(Response response) {
 						resp = response.getRawResponse();
