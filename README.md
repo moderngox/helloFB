@@ -1,4 +1,5 @@
-#FACEBOOK ANDROID SDK API SAMPLE
+FACEBOOK ANDROID SDK API SAMPLE
+===========================
 
 1) Presentation & Installation
 ----------------------------------
